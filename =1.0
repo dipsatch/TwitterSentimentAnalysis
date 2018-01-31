@@ -1,0 +1,29 @@
+Collecting tensorflow-gpu
+  Downloading tensorflow_gpu-1.4.0-cp35-cp35m-win_amd64.whl (67.6MB)
+Collecting wheel>=0.26 (from tensorflow-gpu)
+  Using cached wheel-0.30.0-py2.py3-none-any.whl
+Collecting tensorflow-tensorboard<0.5.0,>=0.4.0rc1 (from tensorflow-gpu)
+  Downloading tensorflow_tensorboard-0.4.0rc3-py3-none-any.whl (1.7MB)
+Collecting protobuf>=3.3.0 (from tensorflow-gpu)
+  Downloading protobuf-3.5.0.post1-py2.py3-none-any.whl (389kB)
+Collecting numpy>=1.12.1 (from tensorflow-gpu)
+  Downloading numpy-1.13.3-cp35-none-win_amd64.whl (13.1MB)
+Collecting six>=1.10.0 (from tensorflow-gpu)
+  Using cached six-1.11.0-py2.py3-none-any.whl
+Collecting enum34>=1.1.6 (from tensorflow-gpu)
+  Downloading enum34-1.1.6-py3-none-any.whl
+Collecting html5lib==0.9999999 (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow-gpu)
+  Downloading html5lib-0.9999999.tar.gz (889kB)
+Collecting werkzeug>=0.11.10 (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow-gpu)
+  Downloading Werkzeug-0.12.2-py2.py3-none-any.whl (312kB)
+Collecting bleach==1.5.0 (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow-gpu)
+  Downloading bleach-1.5.0-py2.py3-none-any.whl
+Collecting markdown>=2.6.8 (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow-gpu)
+  Downloading Markdown-2.6.9.tar.gz (271kB)
+Requirement already satisfied: setuptools in c:\users\dipsa\appdata\local\programs\python\python35\lib\site-packages (from protobuf>=3.3.0->tensorflow-gpu)
+Installing collected packages: wheel, six, html5lib, protobuf, werkzeug, bleach, markdown, numpy, tensorflow-tensorboard, enum34, tensorflow-gpu
+  Running setup.py install for html5lib: started
+    Running setup.py install for html5lib: finished with status 'done'
+  Running setup.py install for markdown: started
+    Running setup.py install for markdown: finished with status 'done'
+Successfully installed bleach-1.5.0 enum34-1.1.6 html5lib-0.9999999 markdown-2.6.9 numpy-1.13.3 protobuf-3.5.0.post1 six-1.11.0 tensorflow-gpu-1.4.0 tensorflow-tensorboard-0.4.0rc3 werkzeug-0.12.2 wheel-0.30.0

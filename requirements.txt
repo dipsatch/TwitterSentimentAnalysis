@@ -1,0 +1,8 @@
+numpy
+pandas
+keras
+tensorflow-gpu>=1.0
+scikit-learn
+nbsvm
+joblib
+xgboost
