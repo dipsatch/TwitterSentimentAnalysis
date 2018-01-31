@@ -44,4 +44,4 @@ The LSTM RNN performed the best, getting a test time score of nearly 68 %, beati
 
 The strongest ensemble learning model was the Stacked Ensemble, achieving the second highest score of 66.9 %.
 
-<img src="https://github.com/dipsatch/TwitterSentimentAnalysis/data/scores.png" width=100%>
+<img src="https://github.com/dipsatch/TwitterSentimentAnalysis/data/scores.png?raw=true" width=100%>
